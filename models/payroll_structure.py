@@ -57,7 +57,7 @@ class HrPayslip(models.Model):
         # Solo afecta al asiento contable.
         all_lines = line_ids + new_lines
 
-        concept_name = 'IPS'
+        concept_name = 'Concepto adicional de nomina'
 
         debit_account = structure.additional_debit_account_id
         credit_account = structure.additional_credit_account_id
